@@ -1,0 +1,66 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/vaibhavkukreja/Downloads/sts-4.9.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.16.0.20200610-1735/jars/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [file:/C:/Users/vaibhavkukreja/Downloads/sts-4.9.0.RELEASE/configuration/org.eclipse.osgi/5/0/.cp/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/vaibhavkukreja/Downloads/sts-4.9.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.16.0.20200610-1735/jars/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [file:/C:/Users/vaibhavkukreja/Downloads/sts-4.9.0.RELEASE/configuration/org.eclipse.osgi/5/0/.cp/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] [1m----------------------------< [0;36mnew:Project[0;1m >-----------------------------[m
+[INFO] [1mBuilding Project 0.0.1-SNAPSHOT[m
+[INFO] [1m--------------------------------[ jar ]---------------------------------[m
+[INFO] 
+[INFO] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mProject[0;1m ---[m
+[INFO] Deleting C:\Users\vaibhavkukreja\OneDrive - S&P Global\desktop\sheevangi\myApp\test\target
+[INFO] 
+[INFO] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mProject[0;1m ---[m
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mProject[0;1m ---[m
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to C:\Users\vaibhavkukreja\OneDrive - S&P Global\desktop\sheevangi\myApp\test\target\classes
+[INFO] 
+[INFO] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mProject[0;1m ---[m
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\vaibhavkukreja\OneDrive - S&P Global\desktop\sheevangi\myApp\test\src\test\resources
+[INFO] 
+[INFO] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mProject[0;1m ---[m
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\Users\vaibhavkukreja\OneDrive - S&P Global\desktop\sheevangi\myApp\test\target\test-classes
+[INFO] 
+[INFO] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M5:test[m [1m(default-test)[m @ [36mProject[0;1m ---[m
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running [1mTestSuite[m
+form page driver nullLoading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Tue Jan 05 16:13:04 IST 2021 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Connection successfull
+the rowData:  Sheevangi Relan sheevangirelan10@gmail.com   samsung 9810372558 1992-11-11 QA abc.com 10000000 C:UsersvaibhavkukrejaOneDrive - S&P GlobaldesktopsheevangimyApp	estsrcmainesourcesSheevangi Relan Resume.pdf Yes yes
+[INFO] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.832 s - in [1mTestSuite[m
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[INFO] 
+[WARNING] Could not delete temp directory C:\Users\vaibhavkukreja\AppData\Local\Temp\surefire6060705760889851228 because Directory C:\Users\vaibhavkukreja\AppData\Local\Temp\surefire6060705760889851228 unable to be deleted.
+[INFO] 
+[INFO] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mProject[0;1m ---[m
+[INFO] Building jar: C:\Users\vaibhavkukreja\OneDrive - S&P Global\desktop\sheevangi\myApp\test\target\Project-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mProject[0;1m ---[m
+[INFO] Installing C:\Users\vaibhavkukreja\OneDrive - S&P Global\desktop\sheevangi\myApp\test\target\Project-0.0.1-SNAPSHOT.jar to C:\Users\vaibhavkukreja\.m2\repository\new\Project\0.0.1-SNAPSHOT\Project-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\vaibhavkukreja\OneDrive - S&P Global\desktop\sheevangi\myApp\test\pom.xml to C:\Users\vaibhavkukreja\.m2\repository\new\Project\0.0.1-SNAPSHOT\Project-0.0.1-SNAPSHOT.pom
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;32mBUILD SUCCESS[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  24.553 s
+[INFO] Finished at: 2021-01-05T16:13:08+05:30
+[INFO] [1m------------------------------------------------------------------------[m
